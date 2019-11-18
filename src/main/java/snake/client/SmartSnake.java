@@ -33,13 +33,9 @@ public class SmartSnake {
   Direction solve() {
     if (gameOver) return Direction.UP;
 
+    // your code mus tbe here!
     Optional<List<LeePoint>> solution_apple = lee.trace(snake_head, apple, obstacles);
-    if (solution_apple.isPresent()) {
-    }
 
-    Optional<List<LeePoint>> solution_stone = lee.trace(snake_head, stone, obstacles);
-    if (solution_stone.isPresent()) {
-    }
     return Direction.UP;
   }
 
