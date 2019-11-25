@@ -6,8 +6,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
+ * https://www.youtube.com/watch?v=Tebc6J0qxNA
  * https://en.wikipedia.org/wiki/Lee_algorithm
- *"https://ru.wikipedia.org/wiki/Алгоритм_Ли
+ * https://ru.wikipedia.org/wiki/Алгоритм_Ли
  */
 public class Lee {
   private final static List<LeePoint> deltas = new ArrayList<LeePoint>(){{
