@@ -2,6 +2,7 @@ package snake.client;
 
 import com.codenjoy.dojo.services.Point;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -13,8 +14,13 @@ public class Snake {
   }
 
   public static Snake from(List<Point> unsorted) {
-    // TODO: implement sort !!!
+    // TODO: implement sort
     return new Snake(convert(unsorted));
+  }
+
+  public static Snake from(Board board) {
+    // TODO: implement
+    return new Snake(new ArrayList<>());
   }
 
   public Snake(List<LeePoint> data) {
